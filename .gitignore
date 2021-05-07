@@ -1,3 +1,5 @@
 __pycache__
 python-brasilidades/__pycache__
-testes/__pycache__
+src/leilao/__pycache__
+.vscode
+src/leilao/.pytest_cache

@@ -8,8 +8,8 @@ lance_do_yuri = Lance(yuri, 150.0)
 
 leilao = Leilao("Celular")
 
-leilao.lances.append(lance_do_gui)
-leilao.lances.append(lance_do_yuri)
+leilao.propoe(lance_do_gui)
+leilao.propoe(lance_do_yuri)
 
 avaliador = Avaliador()
 avaliador.avalia(leilao)
